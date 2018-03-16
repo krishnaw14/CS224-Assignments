@@ -1,0 +1,8 @@
+ BUILD INSTRUCTIONS
+ 
+ I have used to_string() method in the program which requires c++11 support, which might not be available in your default g++ compiler, depending on your g++ version.
+ So, the server.cpp file needs to be compiled with c++11 support as follows : 
+ 	
+ 	$ g++ -std=c++0x server.cpp -o server
+ 	$ ./server <port no.>
+ 	
